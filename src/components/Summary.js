@@ -93,9 +93,9 @@ const Summary = () => {
           />
           <div className="font-medium dark:text-white">
             <div>CURATED FOR</div>
-            <div>Jese Leos</div>
+            <div>Prateek Gandhi</div>
             <div className="text-sm text-gray-500 dark:text-gray-400">
-              Joined in August 2014
+              Joined in January 2023
             </div>
           </div>
         </div>
