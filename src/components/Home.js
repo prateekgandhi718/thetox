@@ -26,18 +26,19 @@ const Home = () => {
       </Link>
     </div>
 
-    <div className='flex flex-col items-center justify-center py-10 px-20 gap-8 border-2 border-indigo-600'>
+    {/* TEXT */}
+    <div className='flex flex-col items-center justify-center py-10 px-20 gap-8'>
       <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Regain control</span> over your days.</h1>
       <ScrollAnimation animateIn="fadeIn" animateOnce="True" duration="1">
       <h1 class="flex items-center text-5xl font-extrabold dark:text-white">TheTox<span class="bg-blue-100 text-blue-800 text-2xl font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-2">PRO</span></h1>
       </ScrollAnimation>
     </div>
 
-
-    <div className='flex flex-row items-start justify-center py-10 px-20 gap-20 border-2 border-indigo-600' style={{backgroundColor: "#FAF7F3"}}>
+    {/* PRICING CARDS */}
+    <div className='flex flex-col md:flex-row items-center justify-center py-10 px-20 gap-10 md:gap-20' style={{backgroundColor: "#FAF7F3"}}>
         
       <ScrollAnimation animateIn="fadeIn" animateOnce="True" duration="2">
-      <div className="w-full max-w-sm p-4 bg-white border rounded-lg shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+      <div className="w-full min-w-sm p-4 bg-white border rounded-lg shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700">
           <h5 className="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">Free plan</h5>
           <div className="flex items-baseline text-gray-900 dark:text-white">
               <span className="text-3xl font-semibold">$</span>
