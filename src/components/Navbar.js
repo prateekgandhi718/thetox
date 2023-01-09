@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="grid grid-cols-2 py-10 px-20">
-      <Link to="/" className="flex items-center">Logo of TheTox</Link>
+      <Link to="/" className="flex items-center">TheTox</Link>
       <div className="grid grid-cols-4 md:grid-cols-8 justify-items-end">
         <div className="flex items-center justify-center md:col-start-5 ">
           <AiOutlinePlus />
