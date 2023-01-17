@@ -7,7 +7,7 @@ const Summary = () => {
         <div className="flex flex-col items-center bg-transparent md:flex-row md:gap-10 border-solid ">
           <img
             className="object-cover mb-1 rounded-full h-20 w-20 md:h-20 md:w-20 md:rounded-full"
-            src={require("../Designs/TwitterImageLogo.png")}
+            src={require("../Designs/DailySummary1.svg").default}
             alt=""
           />
           <div className="flex flex-col justify-between p-4 leading-normal">
@@ -65,7 +65,7 @@ const Summary = () => {
             <div className="overflow-hidden w-full max-h-52">
               <img
                 className="rounded-t-lg"
-                src={require("../Designs/TwitterImageLogo.png")}
+                src={require("../Designs/DailySummary1.svg").default}
                 alt=""
               />
             </div>
