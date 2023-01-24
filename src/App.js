@@ -6,6 +6,7 @@ import Notification from "./components/Notification";
 import User from "./components/User";
 import Summary from "./components/Summary";
 import ThetoxState from "./context/thetox/ThetoxState";
+import Landing from "./components/Landing";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <ThetoxState>
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/" element={<Landing />} />
+          <Route exact path="/home" element={<Home />} />
           <Route exact path="/notification" element={<Notification />} />
           <Route exact path="/user" element={<User />} />
           <Route exact path="/summary" element={<Summary />} />
