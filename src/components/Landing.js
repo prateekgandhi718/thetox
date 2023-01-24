@@ -9,7 +9,7 @@ const Landing = () => {
       <div className="grid grid-rows-1 md:grid-cols-2 px-20 gap-8  ">
         <div className="grid grid-flow-row gap-4  ">
           <p className="text-2xl font-extrabold leading-6 text-gray-800">
-            Connect your account
+            Choose an account to continue
           </p>
 
           <div className="rounded">
